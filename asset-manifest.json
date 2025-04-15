@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wedding-budget/static/css/main.8338be67.css",
+    "main.js": "/wedding-budget/static/js/main.a4dc6fc8.js",
+    "static/js/453.3c26254c.chunk.js": "/wedding-budget/static/js/453.3c26254c.chunk.js",
+    "index.html": "/wedding-budget/index.html",
+    "main.8338be67.css.map": "/wedding-budget/static/css/main.8338be67.css.map",
+    "main.a4dc6fc8.js.map": "/wedding-budget/static/js/main.a4dc6fc8.js.map",
+    "453.3c26254c.chunk.js.map": "/wedding-budget/static/js/453.3c26254c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8338be67.css",
+    "static/js/main.a4dc6fc8.js"
+  ]
+}
