@@ -871,7 +871,7 @@ function App() {
                     .filter(cat => expenses.some(exp => exp.category === cat.name))
                     .map(cat => {
                       const categoryExpenses = expenses.filter(exp => exp.category === cat.name);
-                      const totalCategoryPlanned = categoryExpenses.reduce((sum, exp) => sum + (parseFloat(exp.plannedAmount) || 0), 0);
+                      // הסרת המשתנה הלא משומש
                       const totalCategoryActual = categoryExpenses.reduce((sum, exp) => sum + (parseFloat(exp.actualAmount) || 0), 0);
                       const percentOfTotal = totalActual > 0 ? (totalCategoryActual / totalActual) * 100 : 0;
                       
